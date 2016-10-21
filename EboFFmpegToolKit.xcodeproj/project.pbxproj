@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3AB3311DB8C46D0086E544 /* EboDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3AB3301DB8C46D0086E544 /* EboDecoder.m */; };
 		1E3B389B1DB750D600491507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B389A1DB750D600491507 /* main.m */; };
 		1E3B389E1DB750D600491507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B389D1DB750D600491507 /* AppDelegate.m */; };
 		1E3B38A11DB750D600491507 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B38A01DB750D600491507 /* ViewController.m */; };
@@ -26,6 +27,12 @@
 		1E3B39501DB7547200491507 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3B394F1DB7547200491507 /* libz.tbd */; };
 		1E3B39521DB7561700491507 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3B39511DB7561700491507 /* libbz2.tbd */; };
 		1E3B39541DB7562200491507 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3B39531DB7562200491507 /* libiconv.tbd */; };
+		1EC03AF71DBA10B300CC2169 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC03AF61DBA10B300CC2169 /* AudioToolbox.framework */; };
+		1EC03AF91DBA10BD00CC2169 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC03AF81DBA10BD00CC2169 /* OpenGLES.framework */; };
+		1EC03AFB1DBA10CC00CC2169 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC03AFA1DBA10CC00CC2169 /* CoreImage.framework */; };
+		1EC03AFD1DBA10D500CC2169 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC03AFC1DBA10D500CC2169 /* CoreGraphics.framework */; };
+		1EC03AFF1DBA10DE00CC2169 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC03AFE1DBA10DE00CC2169 /* CoreMedia.framework */; };
+		1EC03B011DBA10F800CC2169 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC03B001DBA10F800CC2169 /* VideoToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E3AB32F1DB8C46D0086E544 /* EboDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EboDecoder.h; sourceTree = "<group>"; };
+		1E3AB3301DB8C46D0086E544 /* EboDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EboDecoder.m; sourceTree = "<group>"; };
 		1E3B38961DB750D600491507 /* EboFFmpegToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EboFFmpegToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3B389A1DB750D600491507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E3B389C1DB750D600491507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -176,6 +185,12 @@
 		1E3B394F1DB7547200491507 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1E3B39511DB7561700491507 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		1E3B39531DB7562200491507 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		1EC03AF61DBA10B300CC2169 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1EC03AF81DBA10BD00CC2169 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1EC03AFA1DBA10CC00CC2169 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		1EC03AFC1DBA10D500CC2169 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1EC03AFE1DBA10DE00CC2169 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1EC03B001DBA10F800CC2169 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +198,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC03B011DBA10F800CC2169 /* VideoToolbox.framework in Frameworks */,
+				1EC03AFF1DBA10DE00CC2169 /* CoreMedia.framework in Frameworks */,
+				1EC03AFD1DBA10D500CC2169 /* CoreGraphics.framework in Frameworks */,
+				1EC03AFB1DBA10CC00CC2169 /* CoreImage.framework in Frameworks */,
+				1EC03AF91DBA10BD00CC2169 /* OpenGLES.framework in Frameworks */,
+				1EC03AF71DBA10B300CC2169 /* AudioToolbox.framework in Frameworks */,
 				1E3B39541DB7562200491507 /* libiconv.tbd in Frameworks */,
 				1E3B39521DB7561700491507 /* libbz2.tbd in Frameworks */,
 				1E3B39501DB7547200491507 /* libz.tbd in Frameworks */,
@@ -214,6 +235,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E3AB32E1DB8C4370086E544 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1E3AB32F1DB8C46D0086E544 /* EboDecoder.h */,
+				1E3AB3301DB8C46D0086E544 /* EboDecoder.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		1E3B388D1DB750D600491507 = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +268,7 @@
 		1E3B38981DB750D600491507 /* EboFFmpegToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				1E3AB32E1DB8C4370086E544 /* Utils */,
 				1E3B38CC1DB7518100491507 /* Vendor */,
 				1E3B389C1DB750D600491507 /* AppDelegate.h */,
 				1E3B389D1DB750D600491507 /* AppDelegate.m */,
@@ -478,6 +509,12 @@
 		1E3B394C1DB7546A00491507 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1EC03B001DBA10F800CC2169 /* VideoToolbox.framework */,
+				1EC03AFE1DBA10DE00CC2169 /* CoreMedia.framework */,
+				1EC03AFC1DBA10D500CC2169 /* CoreGraphics.framework */,
+				1EC03AFA1DBA10CC00CC2169 /* CoreImage.framework */,
+				1EC03AF81DBA10BD00CC2169 /* OpenGLES.framework */,
+				1EC03AF61DBA10B300CC2169 /* AudioToolbox.framework */,
 				1E3B39531DB7562200491507 /* libiconv.tbd */,
 				1E3B39511DB7561700491507 /* libbz2.tbd */,
 				1E3B394F1DB7547200491507 /* libz.tbd */,
@@ -623,6 +660,7 @@
 				1E3B38A11DB750D600491507 /* ViewController.m in Sources */,
 				1E3B389E1DB750D600491507 /* AppDelegate.m in Sources */,
 				1E3B389B1DB750D600491507 /* main.m in Sources */,
+				1E3AB3311DB8C46D0086E544 /* EboDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,6 +906,7 @@
 				1E3B38C51DB750D600491507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E3B38C61DB750D600491507 /* Build configuration list for PBXNativeTarget "EboFFmpegToolKitTests" */ = {
 			isa = XCConfigurationList;
@@ -876,6 +915,7 @@
 				1E3B38C81DB750D600491507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E3B38C91DB750D600491507 /* Build configuration list for PBXNativeTarget "EboFFmpegToolKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -884,6 +924,7 @@
 				1E3B38CB1DB750D600491507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
